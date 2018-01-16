@@ -1,0 +1,22 @@
+<?php 
+/**
+* 
+*/
+class appleclass
+{
+
+	function __construct($apple)
+	{
+		$apple = fopen(filename, mode);
+		if (!$apple {
+			throw new Exception("file cannot open");
+		}
+	}
+
+
+	function __destructor() {
+		fclose($this->$apple);
+	}
+}
+
+ ?>

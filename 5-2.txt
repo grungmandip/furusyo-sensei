@@ -1,0 +1,10 @@
+<?php 
+	$file = file_handlers();
+	$apple = serialize($file);
+	if (!$apple) {
+		$this->$file->unsave();
+	}
+
+	$apple = unserialize($file);
+	.................¯\_(ツ)_/¯......
+ ?>

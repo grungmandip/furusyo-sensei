@@ -1,0 +1,22 @@
+<?php
+class Appleclass
+{
+	public function __construct() {
+
+	}
+
+	private $price;
+
+
+	public function setPrice($a) {
+		$this->$price = $a;
+	}
+
+	public function getPriceWithTax() {
+		return round($this->$price*1.08);
+	}
+
+}
+
+
+

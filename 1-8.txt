@@ -1,0 +1,8 @@
+<?php 
+$element = ['abc','def','ghi'];
+foreach ($element as $key => $value) {
+	echo $value;
+}
+
+
+ ?>

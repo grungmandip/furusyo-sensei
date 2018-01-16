@@ -1,0 +1,27 @@
+<?php
+
+class Singleton {
+	static public function getInstance() {
+		static $obj = null;
+		if (null === $obj) {
+			$obj = new static();
+		}
+		return $obj;
+	}
+	
+	private function __construct() {
+		
+	}
+	//clone
+	private function __clone() {
+	}
+	
+}
+
+$obj = Singleton::getInstance();
+var_dump($obj);
+$obj2= Singleton::getInstance();
+var_dump($obj2);
+
+
+?>

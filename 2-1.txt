@@ -1,0 +1,8 @@
+<?php 
+function apple($a) {
+	if(is_array($a)) {
+		$a[] = 'end';
+	}
+}
+
+ ?>
